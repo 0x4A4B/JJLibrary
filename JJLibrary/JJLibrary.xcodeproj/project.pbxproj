@@ -10,6 +10,8 @@
 		A4A5ECED1AE3AE0100B4FDDD /* JJLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A5ECEC1AE3AE0100B4FDDD /* JJLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4A5ECF31AE3AE0100B4FDDD /* JJLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A5ECE71AE3AE0100B4FDDD /* JJLibrary.framework */; };
 		A4A5ECFA1AE3AE0100B4FDDD /* JJLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A5ECF91AE3AE0100B4FDDD /* JJLibraryTests.m */; };
+		A4A5ED101AE3B05C00B4FDDD /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A5ED0E1AE3B05C00B4FDDD /* ViewController.h */; };
+		A4A5ED111AE3B05C00B4FDDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A5ED0F1AE3B05C00B4FDDD /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		A4A5ECF21AE3AE0100B4FDDD /* JJLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A5ECF81AE3AE0100B4FDDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4A5ECF91AE3AE0100B4FDDD /* JJLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJLibraryTests.m; sourceTree = "<group>"; };
+		A4A5ED0E1AE3B05C00B4FDDD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4A5ED0F1AE3B05C00B4FDDD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				A4A5ECEC1AE3AE0100B4FDDD /* JJLibrary.h */,
 				A4A5ECEA1AE3AE0100B4FDDD /* Supporting Files */,
+				A4A5ED0E1AE3B05C00B4FDDD /* ViewController.h */,
+				A4A5ED0F1AE3B05C00B4FDDD /* ViewController.m */,
 			);
 			path = JJLibrary;
 			sourceTree = "<group>";
@@ -110,6 +116,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4A5ECED1AE3AE0100B4FDDD /* JJLibrary.h in Headers */,
+				A4A5ED101AE3B05C00B4FDDD /* ViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A5ED111AE3B05C00B4FDDD /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +406,7 @@
 				A4A5ECFF1AE3AE0100B4FDDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4A5ED001AE3AE0100B4FDDD /* Build configuration list for PBXNativeTarget "JJLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +415,7 @@
 				A4A5ED021AE3AE0100B4FDDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
